@@ -10,4 +10,4 @@ tasks:
   - init: >
       cd Python_VoiceRecognition/ 
       pip3 install -r requirements.txt
-    command: python3 Python_VoiceRecognition/Python_VoiceRecognition.py 
+    command: python3 Python_VoiceRecognition.py 
