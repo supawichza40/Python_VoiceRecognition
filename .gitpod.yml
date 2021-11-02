@@ -7,5 +7,7 @@ ports:
   - port: 9000-9999
     onOpen: ignore
 tasks:
-  - init: pip3 install -r requirements.txt
+  - init: >
+      cd Python_VoiceRecognition/ 
+      pip3 install -r requirements.txt
     command: python3 Python_VoiceRecognition/Python_VoiceRecognition.py 
