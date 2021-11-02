@@ -1,9 +1,11 @@
-image: gitpod/workspace-full-vnc
+image: gitpod/workspace-full
 ports:
-  - port: 5900
-    onOpen: ignore
-  - port: 3000-8999
+  - port: 1000-8079
     onOpen: open-preview
+  - port: 8080
+    onOpen: open-preview
+  - port: 9000-9999
+    onOpen: ignore
 tasks:
   - init: pip3 install -r requirements.txt
     command: python3 HelloWorld.py
