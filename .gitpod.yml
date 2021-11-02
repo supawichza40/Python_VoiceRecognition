@@ -8,4 +8,4 @@ ports:
     onOpen: ignore
 tasks:
   - init: pip3 install -r requirements.txt
-    command: python3 HelloWorld.py
+    command: python3 Python_VoiceRecognition/Python_VoiceRecognition.py 
